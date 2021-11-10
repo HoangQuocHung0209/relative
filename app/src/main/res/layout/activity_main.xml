@@ -7,36 +7,50 @@
     tools:context=".MainActivity">
 
     <TextView
-
+        android:fontFamily="sans-serif-black"
+        android:textStyle="italic"
+        android:id="@+id/texView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#0A57F1"
         android:text="view 1"
-        android:textSize="30sp"
-        android:background="#f20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="30sp" />
 
     <TextView
-        android:layout_alignParentEnd="true"
+        android:layout_toStartOf="@id/texView1"
+        android:layout_above="@id/texView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E91E63"
         android:text="view 2"
-        android:textSize="30sp"
-        android:background="#f20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="30sp" />
 
     <TextView
-        android:layout_alignParentBottom="true"
+        android:layout_above="@id/texView1"
+        android:layout_toRightOf="@id/texView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFC107"
         android:text="view 3"
-        android:textSize="30sp"
-        android:background="#f20"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:textSize="30sp" />
 
     <TextView
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:text="view 4"
-        android:textSize="30sp"
-        android:background="#f20"
+        android:layout_below="@id/texView1"
+        android:layout_toLeftOf="@id/texView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:background="#FF5722"
+        android:text="view 4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_below="@id/texView1"
+        android:layout_toRightOf="@id/texView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#673AB7"
+        android:text="view 5"
+        android:textSize="30sp" />
 
 </RelativeLayout>
