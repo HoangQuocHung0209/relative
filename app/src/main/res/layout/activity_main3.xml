@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/red"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:background="#f20"
+        android:gravity="center"
+        android:text="1"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/green"
+        android:layout_below="@id/red"
+        android:layout_toRightOf="@id/red"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:background="#4CAF50"
+        android:gravity="center"
+        android:text="2"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/yellow"
+        android:layout_below="@id/green"
+        android:layout_toRightOf="@id/green"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:background="#FFEB3B"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/purple"
+        android:layout_below="@id/yellow"
+        android:layout_toRightOf="@id/yellow"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="4"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/orange"
+        android:layout_below="@id/purple"
+        android:layout_toLeftOf="@id/purple"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:text="5"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/pink"
+        android:layout_below="@id/orange"
+        android:layout_toLeftOf="@id/orange"
+        android:layout_width="102dp"
+        android:layout_height="50dp"
+        android:background="#F18765"
+        android:gravity="center"
+        android:text="6"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_below="@id/pink"
+        android:layout_toLeftOf="@id/pink"
+        android:layout_width="102dp"
+        android:layout_height="60dp"
+        android:background="#9C27B0"
+        android:gravity="center"
+        android:text="7"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>

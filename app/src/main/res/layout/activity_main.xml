@@ -36,10 +36,10 @@
         android:textSize="30sp" />
 
     <TextView
-        android:layout_below="@id/texView1"
-        android:layout_toLeftOf="@id/texView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@id/texView1"
+        android:layout_toLeftOf="@id/texView1"
         android:background="#FF5722"
         android:text="view 4"
         android:textSize="30sp" />
